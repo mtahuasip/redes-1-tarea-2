@@ -26,7 +26,7 @@ def set_preferences():
     color = request.form.get("color")
 
     if font is None:
-        font = "system-ui"
+        font = "'system-ui'"
 
     if color is None:
         color = "#333333"
